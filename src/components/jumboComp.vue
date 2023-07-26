@@ -18,9 +18,9 @@ export default {
 <template>
   <div class = "my-div">
     <div class = "w-[50%] ml-[10%] pt-20">
-      <span class = "tracking-widest text-[--green-text]">
+      <h3 class = "tracking-widest font-bold">
         17 YEARS OF EXPERIENCE
-      </span>
+      </h3>
       <h2 class = "font-extrabold text-6xl py-8">
         We Are a <br> Web Design
         <span class = "text-[--green-text]">Agency</span>
@@ -77,4 +77,12 @@ export default {
   background-repeat: no-repeat;
   background-position: 140% 10%;
 }
+h3{
+  color: rgb(152,225,94);
+  color: linear-gradient(90deg, rgba(152,225,94,1) 25%, rgba(3,217,164,1) 75%);
+
+}
+
+
+
 </style>

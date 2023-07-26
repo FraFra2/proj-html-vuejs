@@ -38,7 +38,7 @@ export default {
 <template>
   <div class = "px-8 my-20 mx-auto">
     <div class = "grid grid-cols-6 items-center justify-center">
-      <div class = "flex justify-center" v-for="client in clients" >
+      <div class = "flex justify-center" v-for="client in clients" :key = "client.name">
         <img :src="client.logo" :alt="client.name">
       </div>
     </div>

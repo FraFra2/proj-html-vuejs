@@ -37,11 +37,12 @@ export default {
     <h2 class = "text-5xl mb-8">
       Latest News & Our <span class = "text-[--green-text]">Blog</span>
     </h2>
+
     <dotbarComp/>
 
     <div class = "grid grid-cols-3 py-32 px-2 gap-6 text-left">
 
-      <div class = "relative flex justify-center" v-for = "article in articles">
+      <div class = "relative flex justify-center" v-for = "article in articles" :key = "article.author">
         <img class = "rounded-lg drop-shadow-lg" :src="article.img">
         <div class = "absolute mt-72">
           <div class = "
