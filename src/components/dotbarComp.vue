@@ -21,5 +21,6 @@ export default {
 <style scoped>
   div{
     background: rgb(152,225,94);
-    background: linear-gradient(90deg, rgba(152,225,94,1) 25%, rgba(3,217,164,1) 75%);  }
+    background: linear-gradient(90deg, rgba(152,225,94,1) 25%, rgba(3,217,164,1) 75%); 
+  }
 </style>

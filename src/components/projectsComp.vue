@@ -72,16 +72,17 @@ export default {
   </div>
 
   <div class = "grid grid-cols-4 grid-rows-2 px-2 gap-2">
-    <div v-for = "img in images">
-      <img class = "rounded-sm" :src="img.img" :alt="img.title">
+    <div v-for = "img in images" class = "group">
+      <img class = "
+      rounded-sm 
+      group-hover:scale-110" :src="img.img" :alt="img.title">
     </div>
   </div>
 
   <div class = "flex justify-center items-center pt-24 pb-32">
-    <buttonComp content = "READ MORE"/>
+    <buttonComp green shadow content = "READ MORE"/>
   </div>
 </template>
 
 <style scoped>
-
 </style>

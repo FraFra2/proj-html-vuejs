@@ -46,7 +46,7 @@ export default {
           there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the
           Semantics, a large language ocean. Separated they live in Bookmarksgrove.
         </p>
-        <buttonComp content = "read more"/>
+        <buttonComp shadow content = "read more"/>
 
 
         <div class = "

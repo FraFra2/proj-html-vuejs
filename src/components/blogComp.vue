@@ -43,7 +43,7 @@ export default {
 
       <div class = "relative flex justify-center" v-for = "article in articles">
         <img class = "rounded-lg drop-shadow-lg" :src="article.img">
-        <div class = "absolute mt-60">
+        <div class = "absolute mt-72">
           <div class = "
           bg-white 
           py-6 pr-24 pl-8
@@ -63,7 +63,7 @@ export default {
       </div>
 
     </div>
-    <buttonComp content = "VIEW ALL POST"/>
+    <buttonComp shadow content = "VIEW ALL POST"/>
   </div>
   
 
