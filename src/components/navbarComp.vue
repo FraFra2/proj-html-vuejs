@@ -16,7 +16,7 @@ export default {
 
 <template>
   <ul class = "flex gap-x-8 uppercase">
-    <li v-for="item in list">
+    <li class = "hover:text-gray-400 transition-all" v-for="item in list">
 
       <a :href="item.link">
 
