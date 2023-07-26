@@ -39,7 +39,7 @@ export default {
   <div 
   class = "
   flex justify-between items-center
-  my-80
+  my-10
   px-8
   ">
   
