@@ -22,8 +22,8 @@ export default {
     <div class = "absolute -my-14 w-full h-full ">
       <div class = "relative w-5/6 h-5/6">
 
-        <img class = "absolute w-full h-full top-0 left-0 rounded-r-[2rem]" src="src/assets/busy-architect-PYVKWM4-1024x872.jpg">
-        <div class = "overlay opacity-90 absolute w-full h-full top-0 left-0 rounded-r-[2rem]">
+        <img class = "absolute drop-shadow-lg w-full h-full top-0 left-0 rounded-r-[2rem]" src="src/assets/busy-architect-PYVKWM4-1024x872.jpg">
+        <div class = "overlay drop-shadow-lg opacity-90 absolute w-full h-full top-0 left-0 rounded-r-[2rem]">
 
         </div>
       </div>
